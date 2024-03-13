@@ -17,7 +17,7 @@ const [items,setItems] = useState([
   };
       
   return (
-      <div className="card">
+      <div className="todo-card">
         <h2>Todos:</h2>
         <ol>
         {items.map((item,index) => (
